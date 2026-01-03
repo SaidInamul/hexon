@@ -1,0 +1,21 @@
+/* Resetting defaults so Bootstrap works properly */
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    /* Removes the conflicting flexbox centering */
+    display: block;
+    /* Sets a clean light gray background color */
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Optional: ensure links don't have weird default colors if you aren't using Bootstrap classes on them */
+a {
+    text-decoration: none;
+}
